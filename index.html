@@ -3,7 +3,6 @@
 
   <head>
       <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
       <title>CodeIT</title>
@@ -36,13 +35,13 @@
                     <div class="row header_first_front">  
                           <div class="col-lg-6 col-md-5 col-sm-5 col-xs-12">
                               <div class="logo">
-                                <img src="img/header/logo.png" alt="CodeIT" width="200px" height="47px" title="CodeIT">
+                                <img src="img/header/logo.png" alt="OurCompany" width="200" height="47" title="CodeIT">
                               </div>
                           </div>
                           <div class="col-lg-6 col-md-7 col-sm-7 col-xs-12">
                               <div class="right_header">
                                   <div class="feedback">
-                                    <a class="feedback_button" href="#feedback" title="give feedback">FEEDBACK</a>
+                                    <a class="feedback_button" href="#" title="give feedback">FEEDBACK</a>
                                   </div>
                                   <div class="number">  <!-- Номера для контакта с Нами -->
                                     <a class="our_number" href="tel:+30507777777" title="Feel free to call"> +3 (050) 777 77 77 </a>
@@ -64,15 +63,15 @@
                     </div>
                     <div id="navbarCollapse" class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navigation">
-                          <li><a href="#home">HOME</a></li>
-                          <div class="nav-border"></div>
-                          <li><a href="#catalog">CATALOG</a></li>
-                          <div class="nav-border"></div>
-                          <li><a href="#shipping_and_payment">SHIPPING AND PAYMENT</a></li>
-                          <div class="nav-border"></div>
-                          <li><a href="#price">PRICE</a></li>
-                          <div class="nav-border"></div>
-                          <li><a href="#contacts">CONTACTS</a></li>
+                          <li><a href="#">HOME</a></li>
+                          <li class="nav-border"></li>
+                          <li><a href="#">CATALOG</a></li>
+                          <li class="nav-border"></li>
+                          <li><a href="#">SHIPPING AND PAYMENT</a></li>
+                          <li class="nav-border"></li>
+                          <li><a href="#">PRICE</a></li>
+                          <li class="nav-border"></li>
+                          <li><a href="#">CONTACTS</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -97,9 +96,11 @@
             <div class="row menu">    <!-- Менюшка под слайдером  -->
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <ul>
-                        <li><a href="#Home">Home</a></li><div></div>
-                        <li><a href="Catalog">Catalog</a></li><div></div>
-                        <li><a href="cm">Category Name</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li class="menu_arrow"></li>
+                        <li><a href="#">Catalog</a></li>
+                        <li class="menu_arrow"></li>
+                        <li><a href="#">Category Name</a></li>
                     </ul>    
                 </div>
             </div>
@@ -107,51 +108,49 @@
             <div class="row main_content">  
                 <div class="col-lg-1-95 col-md-12 col-sm-12 col-xs-6 col-xxs-12">  <!-- Левая колонка main_cntent  -->
 
-                  <row class="row menu_left">
-
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xxs-6">
                     
                       <ul class="main_menu">
-                        <li><a href="#1">Cars</a>
-                          <ul class="secondary_menu">
-                            <li><a href="#1">Porshe</a></li>
-                            <li><a href="#1">Mers</a></li>
-                            <li><a href="#1">Lotus</a></li>
-                            <li><a href="#1">Tesla</a></li>
-                            <li><a href="#1">BMW</a></li>
-                            <li><a href="#1">Audi</a></li>
+                        <li>Cars
+                          <ul class="secondary_menu" id="secondary_menu">
+                            <li><a href="#">Porshe</a></li>
+                            <li><a href="#">Mers</a></li>
+                            <li><a href="#">Lotus</a></li>
+                            <li><a href="#">Tesla</a></li>
+                            <li><a href="#">BMW</a></li>
+                            <li><a href="#">Audi</a></li>
                           </ul>
                         </li>
-                        <li><a href="#1">Household Appliances</a>
-                          <ul class="secondary_menu">
-                            <li><a href="#1">Microwaves</a></li>
-                            <li><a href="#1">Fridges</a></li>
-                            <li><a href="#1">Посудомоечные машины</a></li>
-                            <li><a href="#1">Dishwashers</a></li>
+                        <li>Household Appliances
+                          <ul class="secondary_menu" id="hold">
+                            <li><a href="#">Microwaves</a></li>
+                            <li><a href="#">Fridges</a></li>
+                            <li><a href="#">Посудомоечные машины</a></li>
+                            <li><a href="#">Dishwashers</a></li>
                           </ul>
                         </li>
-                        <li><a href="#1">Mobile equipment</a>
-                          <ul class="secondary_menu">
-                            <li><a href="#1">Empty list</a></li>
+                        <li>Mobile equipment
+                          <ul class="secondary_menu" id="mobile_equip">
+                            <li><a href="#">Empty list</a></li>
                           </ul>
                         </li>
-                        <li><a href="#1">Computers</a>
-                          <ul class="secondary_menu">
-                            <li><a href="#1">Mac</a></li>
-                            <li><a href="#1">Asus</a></li>
-                            <li><a href="#1">Acer</a></li>
+                        <li>Computers
+                          <ul class="secondary_menu" id="computers">
+                            <li><a href="#">Mac</a></li>
+                            <li><a href="#">Asus</a></li>
+                            <li><a href="#">Acer</a></li>
                           </ul>
                         </li>
-                        <li><a href="#1">Clothing</a>
-                          <ul class="secondary_menu">
-                            <li><a href="#1">Shirt</a></li>
-                            <li><a href="#1">Sweater</a></li>
-                            <li><a href="#1">Cup</a></li>
+                        <li>Clothing
+                          <ul class="secondary_menu" id="clothing">
+                            <li><a href="#">Shirt</a></li>
+                            <li><a href="#">Sweater</a></li>
+                            <li><a href="#">Cup</a></li>
                           </ul>
                         </li>
-                        <li><a href="#1">Real Estate</a>
-                          <ul class="secondary_menu">
-                            <li><a href="#1">Пока что пусто тут :)</a></li>
+                        <li>Real Estate
+                          <ul class="secondary_menu" id="real_estate">
+                            <li><a href="#">Пока что пусто тут :)</a></li>
                           </ul>
                         </li>
                       </ul>  <!-- Меню слева  -->
@@ -163,7 +162,6 @@
                         <a href="img/main/readme.txt" download title="Click to download the price">Price List</a>
                       </div>   <!-- Закачка документа  -->
                     </div>    <!-- Левая часть main  -->
-                  </row>
                 </div>
 
                 <div class="col-lg-8-05 col-md-12 col-sm-12 col-xs-6 col-xxs-12">    <!-- Основной контент с товарами  -->
@@ -209,11 +207,11 @@
                   </div>
                   <div class="col-lg-8-2 col-md-8 col-sm-12 col-xs-12 footer_menu">
                     <ul class="footer_list">
-                      <li><a href="#1">HOME</a></li>
-                      <li><a href="#1">CATALOG</a></li>
-                      <li><a href="#1">SHIPPING AND PAYMENT</a></li>
-                      <li><a href="#1">PRICE</a></li>
-                      <li><a href="#1">CONTACTS</a></li>
+                      <li><a href="#">HOME</a></li>
+                      <li><a href="#">CATALOG</a></li>
+                      <li><a href="#">SHIPPING AND PAYMENT</a></li>
+                      <li><a href="#">PRICE</a></li>
+                      <li><a href="#">CONTACTS</a></li>
                     </ul>
                   </div>
                 </div> 
@@ -229,16 +227,16 @@
                 <form action="URL" class="feedback_form">
                   <h2><strong>FEEDBACK</strong></h2>
                   <label for="name">Name <em>*</em></label>
-                  <input type="text" id="name" required="true" name="name" pattern="^[a-zA-Z]+$" placeholder="Name in english" autofocus>
+                  <input type="text" id="name" required name="Your_name" pattern="^[a-zA-Z]+$" placeholder="Name in english" autofocus>
 
                    <label for="phone">Phone <em>*</em></label>
-                  <input type="tel" id="phone" required="true" name="phone" pattern="[0-9]{1,2}\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="38(099)999-99-99">
+                  <input type="tel" id="phone" required name="phone" pattern="[0-9]{1,2}\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="38(099)999-99-99">
 
                    <label for="email">Email <em>*</em></label>
-                  <input type="email" id="email" required="true" name="email" placeholder="example@gmail.com">
+                  <input type="email" id="email" required name="email" placeholder="example@gmail.com">
 
                    <label for="text">Text</label>
-                  <p><textarea rows="5" cols="45" name="text"></textarea></p>
+                  <p><textarea rows="5" cols="45" name="text" id="text"></textarea></p>
 
                   <input type="submit" class="button_feedback" value="SUBMIT">
                 </form>

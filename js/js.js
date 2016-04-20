@@ -94,6 +94,10 @@ f1(img_number);
 		'width':list_width
 	});
 
+	$('.catalog_pages').css({
+		'width':list_width+25
+	});
+
 
 	var content = "<div class=\"col-lg-4 col-md-4 col-sm-6 col-xs-12 \"><div class=\"js_styles\"><div class=\"catalog_img\"><img class=\"product_photo\" src=\"img/main/products/oven.png\" alt=\"Some product\" title=\"Some product\"></div><h3 title=\"Description\">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR DOLER ADIPISCING ELIT.</h3><div class=\"price\"><h2 title=\"price\">$ 350.95</h2><form method=\"POST\" action=\"адрес\"><input type=\"hidden\" value=\"###\" name=\"catalog_item_id\"><span><button style=\"background-color: transparent; border: 0px;\" type=\"submit\" name=\"topurchasesfromcatalog\"><img src=\"img/main/cart.png\" alt=\"Добавить в корзину\" title=\"Add to basket\"></button></span></form></div></div>";
 
